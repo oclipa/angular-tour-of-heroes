@@ -1,25 +1,25 @@
 # angular-tour-of-heroes
 Working through the Angular tutorial (https://angular.io/tutorial)
 
-
-git clone https://github.com/angular/quickstart.git angular-tour-of-heroes
-cd angular-tour-of-heroes
-
+<br/>
+git clone https://github.com/angular/quickstart.git angular-tour-of-heroes<br/>
+cd angular-tour-of-heroes<br/>
+<br/>
 Delete unnecessary files:
-
-OS/X:
-xargs rm -rf < non-essential-files.osx.txt
-rm src/app/*.spec*.ts
-rm non-essential-files.osx.txt
-
-Windows:
-for /f %i in (non-essential-files.txt) do del %i /F /S /Q
-rd .git /s /q
-rd e2e /s /q
-
-Install packges defined in package.json:
-npm install
-
-Launch the application in a browser:
-npm start
-
+<br/>
+OS/X:<br/>
+xargs rm -rf < non-essential-files.osx.txt<br/>
+rm src/app/*.spec*.ts<br/>
+rm non-essential-files.osx.txt<br/>
+<br/>
+Windows:<br/>
+for /f %i in (non-essential-files.txt) do del %i /F /S /Q<br/>
+rd .git /s /q<br/>
+rd e2e /s /q<br/>
+<br/>
+Install packges defined in package.json:<br/>
+npm install<br/>
+<br/>
+Launch the application in a browser:<br/>
+npm start<br/>
+<br/>
