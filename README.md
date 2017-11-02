@@ -3,7 +3,7 @@ Working through the Angular tutorial (https://angular.io/tutorial)
 
 <h2>To install and run the code:</h2>
 <ol>
-  <li>Install Node.js and npm</li>
+  <li>Install <a href="https://nodejs.org/en/download/">Node.js and npm</a></li>
   <li>Fetch this repo</li>
   <li>Install packages defined in package.json: npm install</li>
   <li>Launch the application in a browser: npm start</li>
