@@ -29,5 +29,10 @@ export class HeroDetailComponent implements OnInit {
         this.location.back(); // Going back too far could take users out of the app. In a real app, you can prevent this issue with the CanDeactivate guard.
     }
 
+    save(): void {
+        this.heroService.update(this.hero)
+          .then(() => this.goBack());
+    }
+
     @Input() hero: Hero;
 }
